@@ -11,13 +11,12 @@ It’s built using standard web technologies and focuses on responsive design an
 And with Arabic Language 
 
 ## 🛠️ Technologies Used
-✔ HTML5  
-✔ CSS3 
-✔ Responsive Design (using Flexbox & Media Queries)
+- ✔ HTML5 
+- ✔ CSS3 
+- ✔ Responsive Design (using Flexbox & Media Queries) 
 
 ## 📌 Features
 - 📱 Fully responsive layout  
 - 🎯 Clean & modern design  
 - 🧠 Lightweight and optimized  
 - 🔄 Cross‑browser support  
-- 🔧 Easy to customize

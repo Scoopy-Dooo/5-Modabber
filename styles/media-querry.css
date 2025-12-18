@@ -1,0 +1,75 @@
+/* lg screens < 1280  px */
+
+@media screen and (max-width:1280px ){
+    .aside{
+        width: 5%;
+    }
+    .aside > p  ,.aside a p{
+        display: none;
+    }
+    .d-md-none{
+        display: none;
+    }
+.container{
+  grid-template-columns: 5% 1fr 1fr;
+ grid-template-areas:
+    ". header header header"
+    ". balance income expenses"
+    ". recent compare "
+    ". recent compare "
+    ". trans trans"
+    ". trans trans"
+    ". trans trans"
+    ". monthly summary"
+    ". monthly summary"
+    ". budget pay"
+    ". budget pay"
+    ". budget pay" !important;
+}
+}
+/* md screens < 1024  px */
+
+@media screen and (max-width:1024px ){
+    
+}
+/* sm screens < 768  px */
+
+@media screen and (max-width:768px ){
+   .aside{
+    display: none;
+   }
+    .container{
+  grid-template-columns: 1fr;
+ grid-template-areas:
+    ". header "
+    ". balance  "
+    ". income "
+    ". expenses "
+    ". recent  "
+    ". recent  "
+    ". trans "
+    ". trans"
+    ". trans"
+    ". trans"
+    ". monthly "
+    ". monthly "
+    ". monthly "
+    ". budget "
+    ". budget "
+    ". budget "
+    ". budget "
+    ". compare"
+    ". compare"
+    ". summary"
+    ". summary"
+    ". pay "
+    ". pay "
+    ". pay "
+    ". pay "
+     !important;
+}
+/* xs screens <  640 px */
+
+@media screen and (max-width:640px ){
+    
+}
